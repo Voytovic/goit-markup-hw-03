@@ -188,7 +188,7 @@ button {
   gap: 24px;
   list-style-type: none;
 }
-.features-list .features-item:first-child {
+.features-list .features-item-title:first-child {
   width: calc((100% - 72px) / 4);
 }
 .features-item {
