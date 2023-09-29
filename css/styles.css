@@ -72,6 +72,7 @@ button {
 }
 
 .header-menu-link {
+padding: 24px 0;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -88,12 +89,14 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-list {display: flex;gap: 40px
+.address-list {
   list-style-type: none;
 }
 .address-list-item {
 }
 .address-menu-link {
+  display: flex;
+    gap: 40px;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
