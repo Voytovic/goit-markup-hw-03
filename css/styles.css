@@ -188,10 +188,10 @@ button {
   gap: 24px;
   list-style-type: none;
 }
-.features-list .features-item-title:first-child {
+
+.features-list .features-item:first-child {
   width: calc((100% - 72px) / 4);
 }
-
 .features-item-title {
   color: #2e2f42;
   font-size: 20px;
