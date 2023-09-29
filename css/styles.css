@@ -228,9 +228,7 @@ button {
 .team-list .team-cont:first-child {
   width: calc((100% - 72px) / 4);
 }
-.team-cont {
-  width: calc((100% - 72px) / 4);
-}
+
 .team-title {
   margin-bottom: 72px;
   color: #2e2f42;
@@ -284,7 +282,7 @@ button {
   letter-spacing: 0.02em;
 }
 .portfolio-title {
-  margin-bottom: 8px;
+  margin-bottom: 72px;
   max-width: 218px;
   color: #2e2f42;
   text-align: center;
@@ -312,6 +310,7 @@ button {
   border-top: none;
 }
 .portfolio-item-name {
+  margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
