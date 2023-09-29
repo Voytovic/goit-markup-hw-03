@@ -191,8 +191,7 @@ button {
 .features-list .features-item-title:first-child {
   width: calc((100% - 72px) / 4);
 }
-.features-item {
-}
+
 .features-item-title {
   color: #2e2f42;
   font-size: 20px;
