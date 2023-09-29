@@ -10,6 +10,8 @@ body {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
   outline: 2px solid red;
@@ -99,7 +101,7 @@ body {
   padding: 188px 472px 292px 472px;
 }
 .hero {
-  padding-bottom: 120px;
+
 }
 .hero-title {
   color: #ffffff;
@@ -128,8 +130,7 @@ body {
 /** ================FEATURES==================== */
 .features {
   background-color: #fff;
-  padding-top: 120px;
-  padding-bottom: 120px;
+
 }
 .visually-hidden {
   white-space: nowrap;
@@ -159,7 +160,7 @@ body {
 }
 /** ================TEAM==================== */
 .team {
-  padding-top: 120px;
+
   background-color: #f4f4fd;
   color: #2e2f42;
   font-size: 36px;
@@ -210,7 +211,7 @@ body {
 /** ================PORTFOLIO==================== */
 
 .portfolio {
-  padding-top: 120px;
+  
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
