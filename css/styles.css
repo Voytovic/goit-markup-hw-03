@@ -96,10 +96,11 @@ button {
 }
 .address-list {
   list-style-type: none;
+  display: flex;
+  gap: 40px;
 }
 .address-list-item {
   display: flex;
-  gap: 40px;
 }
 .address-menu-link {
   color: #434455;
@@ -169,7 +170,6 @@ button {
   background-color: #fff;
 }
 .features-container {
-  width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
   position: absolute;
@@ -187,6 +187,9 @@ button {
   display: flex;
   gap: 24px;
   list-style-type: none;
+}
+.features-list .features-item:first-child {
+  width: calc((100% - 72px) / 4);
 }
 .features-item {
 }
@@ -221,6 +224,9 @@ button {
   display: flex;
   gap: 24px;
   list-style-type: none;
+}
+.team-list .team-cont:first-child {
+  width: calc((100% - 72px) / 4);
 }
 .team-cont {
   width: calc((100% - 72px) / 4);
@@ -278,7 +284,7 @@ button {
   letter-spacing: 0.02em;
 }
 .portfolio-title {
-  margin-bottom: 72px;
+  margin-bottom: 8px;
   max-width: 218px;
   color: #2e2f42;
   text-align: center;
