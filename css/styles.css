@@ -225,7 +225,7 @@ button {
   gap: 24px;
   list-style-type: none;
 }
-.team-list .team-cont:first-child {
+.team-list .team-title:first-child {
   width: calc((100% - 72px) / 4);
 }
 
