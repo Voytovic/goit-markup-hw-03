@@ -168,6 +168,9 @@ button {
   padding: 120px 0;
   background-color: #fff;
 }
+.features-container {
+  width: calc((100% - 72px) / 4);
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -188,7 +191,6 @@ button {
 .features-item {
 }
 .features-item-title {
-  width: calc((100% - 72px) / 4);
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -219,6 +221,8 @@ button {
   display: flex;
   gap: 24px;
   list-style-type: none;
+}
+.team-cont {
   width: calc((100% - 72px) / 4);
 }
 .team-title {
