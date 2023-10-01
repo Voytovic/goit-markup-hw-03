@@ -4,7 +4,18 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-
+ul {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 /** ================HEADER==================== */
 .container {
   width: 1158px;
@@ -26,8 +37,6 @@ address {
   font-style: normal;
 }
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -41,12 +50,9 @@ address {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  flex-grow: 1;
-  gap: 40px;
 }
 .header-logo {
   margin-right: 76px;
-  margin-left: 156px;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -100,6 +106,7 @@ address {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-left: auto;
 }
 .address-list {
   list-style-type: none;
@@ -149,10 +156,12 @@ address {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .hero-btn {
   display: block;
-  margin-top: 48px;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -165,6 +174,7 @@ address {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -205,9 +215,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  display: flex;
   width: 264px;
-  flex-direction: column;
   align-items: flex-start;
   gap: 8px;
 }
@@ -217,12 +225,11 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
+
   width: 264px;
-  flex-direction: column;
+
   align-items: flex-start;
   gap: 8px;
-  width: calc((100% - 72px) / 4);
 }
 /** ================TEAM==================== */
 .team {
@@ -266,9 +273,7 @@ address {
 .team-hero-name {
   text-align: center;
   margin-bottom: 8px;
-  padding: 0 0 32px 0;
 
-  background-color: #ffffff;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -368,4 +373,5 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
